@@ -1,0 +1,260 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bloom App</title>
+<link rel="stylesheet" href="css/framework7.bundle.min.css">
+<link rel="stylesheet" href="css/style.css">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	
+</head>
+<body>
+
+
+	<div id="app">
+		<div class="view view-main view-init">
+			
+
+			
+			<section class="panel panel-left panel-cover">
+				 <div class="list media-list list-panel">
+                <ul>
+                    <li>
+                        <a href="/home/" class="item-content item-link panel-close">
+                            <div class="item-media">
+                                <i class="material-icons">home</i>
+                            </div>								
+                            <div class="item-inner">
+                                <span class="item-title">Inicio</span>
+                            </div>
+                        </a>
+                    </li>
+					<li>
+                        <a href="/info/" class="item-content item-link panel-close">
+                            <div class="item-media">
+                                <i class="material-icons">info</i>
+                            </div>								
+                            <div class="item-inner">
+                                <span class="item-title">Información</span>
+                            </div>
+                        </a>
+                    </li>
+					<li>
+                        <a href="/desafios/" class="item-content item-link panel-close">
+                            <div class="item-media">
+                                <i class="material-icons">emoji_events</i>
+                            </div>								
+                            <div class="item-inner">
+                                <span class="item-title">Desafíos</span>
+                            </div>
+                        </a>
+                    </li>
+					<li>
+                        <a href="/brands/" class="item-content item-link panel-close">
+                            <div class="item-media">
+                                <i class="material-icons">storefront</i>
+                            </div>								
+                            <div class="item-inner">
+                                <span class="item-title">Tienda</span>
+                            </div>
+                        </a>
+                    </li>
+					<li>
+                        <a href="/perfil/" class="item-content item-link panel-close">
+                            <div class="item-media">
+                                <i class="material-icons">account_circle</i>
+                            </div>								
+                            <div class="item-inner">
+                                <span class="item-title">Perfil</span>
+                            </div>
+                        </a>
+                    </li>
+                </ul>			
+            </div>
+			
+			</section>
+        
+			<section data-name="home" class="page">
+
+			  <!-- Top Navbar -->
+			  <nav class="navbar">
+				<div class="navbar-bg"></div>
+				<div class="navbar-inner">
+				  	<div class="left"><img src="img/logo.png" class="img-fluid" width="120px" height="50px" alt=""></div>
+					<div class="right">
+					<a href="#" class="link panel-open" data-panel=".panel-left"><span class="material-icons">menu</span></a>
+					</div>
+				</div>
+			  </nav>
+				
+				
+
+
+			  <section class="page-content">
+				  
+					
+				  <div class="home_prompt">
+				  <div class="card">
+					  <a href="/prompt/" class="link">
+								<div class="card-content">
+									
+									<div class="capa-relative">
+										<img src="img/armadura.jpg" class="img-fluid" alt="">	
+										<div class="overlay"></div>
+										<div class="capa-texto">
+											<div class="row" id="armadura">
+												<div class="col-80">
+													<h3>Prompt del Día</h3>
+													<h4>Armadura</h4>
+													<p>#hashtag</p>
+												</div>
+												<div class="col-20"><span class="material-icons">arrow_forward_ios</span></div>
+											</div>
+											
+										</div>
+									</div>	
+									
+								</div>
+						  		</a>
+							</div>
+				  </div>
+				  
+				  <div class="generador">
+				  		<div class="row">
+							<div class="col-80"><h4>Generador de Prompts</h4></div>
+							<div class="col-20"><span class="material-icons">arrow_forward_ios</span></div>			
+					  	</div>
+				  </div>
+				  	
+				  <div class="block" id="tendencia">				
+					<h2 class="block-title block-title-medium">En Tendencia</h2>
+						<div class="row">
+						<article class="col">
+							<div class="card">
+								<div class="card-content">
+									
+									<div class="capa-relative">
+										<img src="img/minion.jpg" class="img-fluid" width="170px" alt="">	
+										<div class="overlay"></div>
+										<div class="capa-texto">
+											<div class="row">
+												<div class="col-80"><h4>Desafíos</h4></div>
+												<div class="col-20"><span class="material-icons">arrow_forward_ios</span></div>
+											</div>
+											
+										</div>
+									</div>	
+									
+								</div>
+							</div>
+						</article>
+						<article class="col">
+							<div class="card">
+								<div class="card-content">
+									<div class="capa-relative">
+										<img src="img/referencia.jpg" class="img-fluid" width="170px" height="150px" alt="">	
+										<div class="overlay"></div>
+										<div class="capa-texto">
+											<div class="row">
+												<div class="col-80"><h4>Referencias</h4></div>
+												<div class="col-20"><span class="material-icons">arrow_forward_ios</span></div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</article>					
+					</div>					
+				</div>
+				  
+				  
+				  
+			  </section>
+
+			</section>
+			
+			<nav class="toolbar toolbar-bottom tabbar tabbar-labels">
+			  <div class="toolbar-inner">
+				<a href="/home/" class="link">
+					<i class="material-icons">home</i>
+				</a>
+				<a href="/desafios/" class="link">
+					<i class="material-icons">emoji_events</i>
+				</a>
+				<a href="/referencias/" class="link">
+					<i class="material-icons">collections</i>
+				</a>
+				<a href="#" class="link">
+					<i class="material-icons">storefront</i>
+				</a>
+				<a href="/perfil/" class="link">
+					<i class="material-icons">account_circle</i>
+				</a>
+			  </div>
+			</nav>
+			
+		</div>
+	</div>
+	
+	<section class="login-screen modal-in" id="login">
+	  <!-- Default view-page layout -->
+	  <div class="view">
+		<div class="page login-screen-page">
+		  <!-- page-content has additional login-screen content -->
+		  <div class="page-content login-screen-content">
+			  <img src="img/logo.png" alt="#" class="img-fluid logo">
+			<div class="login-screen-title"></div>
+			<!-- Login form -->
+			<form id="form-login">
+			  <div class="list">
+				<ul>
+				  <li class="item-content item-input">
+					<div class="item-inner">
+					  <div class="item-title item-label">Correo Electrónico </div>
+					  <div class="item-input-wrap">
+						<input type="email" name="email" placeholder="ejemplo@gmail.com" required validate>
+						<span class="input-clear-button"></span>
+					  </div>
+					</div>
+				  </li>
+				  <li class="item-content item-input">
+					<div class="item-inner">
+					  <div class="item-title item-label">Contraseña</div>
+					  <div class="item-input-wrap">
+						<input type="password" name="password" placeholder="******" required validate>
+						<span class="input-clear-button"></span>
+						  
+					  </div>
+					</div>
+				  </li>
+				</ul>
+			  </div>
+			  <div class="list block">
+				  
+				<ul>
+				  <li>
+					   <h6>¿Olvidaste tu contraseña?</h6> 
+						
+					 <a href="#" class="login-button-round" id="btnLogin">Iniciar Sesión</a>
+					  	
+				</li>	 	
+				</ul>
+
+			  </div>
+			</form>
+		  </div>
+		</div>
+	  </div>
+	</section>
+	
+	
+	
+	
+	
+	
+	<script src="js/framework7.bundle.min.js"></script>
+	<script src="js/app.js"></script>
+	
+</body>
+</html>

@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500;600;700&display=swap');
+
+:root{
+	--f7-theme-color:#fff;
+	--f7-navbar-bg-color:#3860A8; /*navbar*/
+	--f7-navbar-text-color:#7C899F;
+	--f7-bars-bg-color:#21366F;/*toolbar*/
+	--f7-tabbar-link-inactive-color:#fff; /*link toolbar*/
+	--f7-block-margin-vertical:20px;
+	--f7-card-footer-border-color:transparent;
+	--color-azul:#21366F;
+}
+
+body{
+	font-family: 'Fredoka', sans-serif;
+	font-size: 14px;
+	color: #2d2d2d;
+}
+
+.navbar-inner .left{
+	padding-left: 20px;
+}
+.img-fluid{
+	max-width: 100%;
+}
+
+.generador{
+	margin: 20px 12px;
+	padding: 12px;
+	background-color: var(--color-azul);
+	border: 1px solid var(--color-azul);
+	border-radius: 10px;
+	color: #fff;
+}
+
+.capa-relative{
+	position: relative;
+	overflow: hidden;
+}
+
+.capa-texto{
+	position: absolute;
+	color: #fff;
+	bottom: 0;
+	width: 100%;
+}
+
+.capa-texto h4,.generador h4{
+	font-size: 25px;
+	font-weight: 200px;
+	padding-left: 4px;
+}
+
+#armadura{
+	padding-left: 10px;	
+}
+
+.overlay{
+	position: absolute;
+	top: 0;
+	background-color: rgba(33,54,111,0.40);
+	width: 100%;
+	height: 100%;
+}
+
+
+.prompt h4{
+font-size: 22px;
+padding-left: 15px;
+font-weight: 600;
+}
+
+.prompt h5{
+font-size: 20px;
+padding-left: 15px;
+font-weight: 600;
+}
+
+.prompt h6{
+padding-left: 30px;
+font-size: 15px;
+margin-block-start: 0px;
+margin-block-end: 0px;
+}
+
+.prompt p{
+	color: #757575;
+	text-align: center;
+	font-size: 18px;
+}
+
+.prompt button{
+	text-align: center;
+	background-color: #0a6dc2;
+	color: #FFFFFF;
+	font-size: 13px;
+}
+
+.login-screen .page, .login-screen-content, .login-screen-page{
+	background-color:var(--f7-navbar-bg-color);
+	color:#FFFFFF;
+}
+
+.item-title.item-label{
+	color: #FFFFFF;
+	font-family: 'Fredoka', sans-serif;
+	font-size: 18px;
+}
+
+.item-input-wrap{
+	background-color: #FFFFFF;
+}
+
+.md .button-fill, .md .button-fill-md{
+	background-color:#3860A8;
+	margin-bottom: 20px;
+	margin-left: 80px;
+	width: 50%;
+	height: 40px;
+
+}
+
+.small-button{
+	width: 86%;
+	height: 5px;
+	margin-left:35px;
+}
+
+.small-button .button-fill .button-round{
+	width: 50px;
+	height: 20px;
+}
+
+.title{
+color: #FFFFFF;
+}
+
+h6{
+	font-weight: 400;
+	font-size: 14px;
+}
+
+.img-fluid.logo{
+	margin-left: 20%;
+}
+
+.list-panel .item-title{
+	font-weight: 400;
+}
+.list-panel i{
+	color:#3860A8;
+	font-size: 20px;
+}
+
+.info h2{
+margin-left: 20%;
+}
+
+.titulo-historial{
+	text-align: center;
+}
+
+.desafios h4{
+	padding-left: 0px 0px 0px 0px;
+	margin-block-start: 0px;
+	margin-block-end: 0px;
+	text-align: center;
+}
+
+.personajes h5{
+	font-size: 15px;
+	padding-left: 15px;
+	font-weight: 600;
+	margin: 0px;
+}
+
+.personajes h6{
+	padding-left: 15px;
+	font-size: 15px;
+}
+
+.personajes button{
+	text-align: center;
+	background-color: #0a6dc2;
+	color: #FFFFFF;
+	font-size: 13px;
+}
+
+.perfil h4{
+	text-align: center;
+	font-size: 22px;
+	margin-block-start: 0px;
+	margin-block-end: 0px;
+}
+
+.perfil h5{
+	text-align: center;
+	font-size: 19px;
+	margin-block-start: 0px;
+	margin-block-end: 0px;
+}
+
+.medium-button{
+background-color:#0c8ce9;
+	margin-bottom: 20px;
+	margin-left: 20px;
+	color: #FFFFFF;
+	width: 80%;
+	height: 70px;	
+	font-family: 'Fredoka', sans-serif;
+	font-size: 18px;
+}
+
+.login-button-round{
+	background-color:#0c8ce9;
+	margin-bottom: 20px;
+	margin-left: 80px;
+	color: #FFFFFF;
+	width: 100px;
+	height: 70px;
+	font-family: 'Fredoka', sans-serif;
+	font-size: 18px;
+}
+
